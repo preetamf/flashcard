@@ -1,6 +1,7 @@
 
 ::-webkit-scrollbar {
   width: 5px;
+  height: 5px;
 }
 
 ::-webkit-scrollbar-track {
@@ -19,6 +20,11 @@
 }
 
 /* import { IoIosArrowForward } from 'react-icons/ioios'; */
+
+*{
+  overflow-x: hidden;
+}
+
 
 .active{
   color: red;

@@ -1,5 +1,5 @@
 import { useRef } from 'react';
-import { Form, Field, Formik, FieldArray, ErrorMessage} from 'formik';
+import { Form, Field, Formik, FieldArray, ErrorMessage } from 'formik';
 import { MdUploadFile } from 'react-icons/md';
 import { BsPlus } from 'react-icons/bs';
 import { MdDelete } from 'react-icons/md';
@@ -60,10 +60,8 @@ const CreateFlashCards = () => {
         // Adding validation 
         validationSchema={signUpSchema}
         // created a onSubmit function
-        // onSubmit={(values, { reset }) => {
-        onSubmit={(values) => {
+        onSubmit={(values, { resetForm }) => {
           // reset form on submit of form
-          // eslint-disable-next-line no-undef
           resetForm({ values: "" });
           // dispatch action ( createGroup )
           dispatch(createGroup(values));
