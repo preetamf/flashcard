@@ -1,42 +1,48 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+
+::-webkit-scrollbar {
+  width: 5px;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+  border-radius: 5px;
+
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+ 
+::-webkit-scrollbar-thumb {
+  background: #888; 
+  border-radius: 5px;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+/* import { IoIosArrowForward } from 'react-icons/ioios'; */
+
+.active{
+  color: red;
+  border-bottom: 4px solid red;
+  border-radius: 4px;
+  padding: 7px 4px;
+  
+}
+.activeTerm{
+  color: red;
+  font-size: larger;
+  font-weight: bold;
+  margin-left: 10px;
+}
+.activeTerm > .icon{
+  display: inline-block;
+}
+.activeCarouselButton{
+background-color: red;
 }
 
-.card {
-  padding: 2em;
+.space-between{
+  justify-content: space-between;
 }
-
-.read-the-docs {
-  color: #888;
+.space-evenly{
+  justify-content: space-evenly;
 }
