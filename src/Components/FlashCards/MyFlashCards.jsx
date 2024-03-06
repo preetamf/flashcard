@@ -40,7 +40,7 @@ const MyFlashCards = () => {
           </div>
           {/* if there is no any flashcards then a button will show which redirects you to the home page (Create flashcard page) */}
           <Link to='/'>
-            <button className='rounded-xl hover:bg-red-800 bg-red-700 px-4 p-2 m-2 text-center text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium  py-2.5 mr-2 mb-2 '>
+            <button className='rounded-xl hover:bg-red-800 bg-red-700 px-4 p-2 m-2 text-center text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium  py-2.5 mr-2 mb-2 '>
               Create Flashcards
             </button>
           </Link>
