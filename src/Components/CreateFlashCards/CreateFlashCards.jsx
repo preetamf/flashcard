@@ -247,7 +247,7 @@ const CreateFlashCards = () => {
                             id={`term.${index}.term_uploadimage`}
                             name={`term.${index}.term_uploadimage`}
                             type="file" />
-                          <div>
+                          <div >
                             {/* it's a delete button to delete a term with a condition 
                             if there is only one term present you can't delete the term */}
                             {
@@ -255,7 +255,7 @@ const CreateFlashCards = () => {
                                 <MdDelete className='text-[1.8em] dark:text-blue-700 dark:hover:text-red-500 m-2 cursor-pointer hover:text-red-500' onClick={() => arrayHelpers.remove(index)} />
                             }
                             {/* it's a edit button to edit a term */}
-                            <TbEdit className='text-[1.8em] text-blue-700 m-2 cursor-pointer hover:text-blue-900'
+                            <TbEdit className='text-[1.8em] mt-[35px] text-blue-700 mr-[10px] cursor-pointer hover:text-blue-900'
                               onClick={() => { inputRef.current[index].focus() }} />
                           </div>
                         </div>

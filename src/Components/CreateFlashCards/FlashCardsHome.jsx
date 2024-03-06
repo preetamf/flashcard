@@ -14,7 +14,7 @@ const FlashCardsHome = () => {
           <div className='m-2 flex  items-center w-[100px]' >
             {/* created navlink to navigate between Create New page to My Flashcard page */}
             <NavLink to='/'>
-              <button className="font-bold dark:bg-gray-300 rounded-md " >
+              <button className="font-bold rounded-md dark:text-white " >
                 Create New
               </button>
             </NavLink>
@@ -23,7 +23,7 @@ const FlashCardsHome = () => {
           <div className='m-2 flex  items-center w-[110px]' >
 
             <NavLink to='/myflashcard' >
-              <button className="font-bold dark:bg-gray-300 rounded-md " >
+              <button className="font-bold rounded-md dark:text-white" >
                 My Flashcard
               </button>
             </NavLink>
