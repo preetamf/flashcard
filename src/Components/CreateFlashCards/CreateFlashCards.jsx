@@ -5,7 +5,7 @@ import { BsPlus } from 'react-icons/bs';
 import { MdDelete } from 'react-icons/md';
 import { TiDeleteOutline } from 'react-icons/ti';
 import { TbEdit } from 'react-icons/tb';
-import { signUpSchema } from '../../schemas';
+import { signUpSchema } from '../../schemas/signupSchema';
 import { useDispatch } from 'react-redux'
 import { createGroup, } from '../../Redux/Actions/Index';
 import { ToastContainer, toast } from 'react-toastify';

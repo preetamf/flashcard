@@ -1,5 +1,5 @@
 import './App.css';
-import FlashCardsHome from './Components/Create FlashCards/FlashCardsHome';
+import FlashCardsHome from './Components/CreateFlashCards/FlashCardsHome';
 import Navbar from './Components/Navbar/Navbar';
 
 function App() {

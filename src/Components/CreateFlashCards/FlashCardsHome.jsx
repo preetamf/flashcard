@@ -1,6 +1,6 @@
 import { Route, Routes, NavLink } from 'react-router-dom'
 import Error404 from '../Error/Error404'
-import FlashCardsDetails from '../FlashCards/FlashCardsDetails'
+import FlashCardsDetails from '../FlashCards/FlashcardsDetails'
 import MyFlashCards from '../FlashCards/MyFlashCards'
 import CreateFlashCards from './CreateFlashCards'
 
