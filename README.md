@@ -54,7 +54,7 @@ To build this project
 ```bash
   npm run build
 ```
-Deployed on Netlify: https://preetamflashcard.netlify.app/
+Deployed on Netlify: [https://preetamflashcard.netlify.app/](https://flashcardgeneratorpreetam.netlify.app/)
 
 
 ## Screenshots
