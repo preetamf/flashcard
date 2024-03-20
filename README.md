@@ -84,3 +84,5 @@ React-toastify
 
 - [@preetamf](https://www.github.com/preetamf)
 
+## Explanation Link
+https://docs.google.com/document/d/1jvUK3e0Pw-oG3_9nAGfVsl_dWIBvOkHw/edit?usp=sharing&ouid=102415499089751481626&rtpof=true&sd=true
